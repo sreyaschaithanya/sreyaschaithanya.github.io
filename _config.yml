@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://masterofnoon.com" # the base hostname & protocol for your site
 
 author:
-  fullname: Sreyas
+  fullname: masterofnoon
   # googleplus: https://www.google.com/+MotaquillahMaddane
   # github: kronik3r
   # twitter: electrik_frog
