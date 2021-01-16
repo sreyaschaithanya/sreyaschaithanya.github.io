@@ -38,7 +38,7 @@
     <url>
       <loc>http://masterofnoon.com/about/</loc>
       
-        <lastmod>2021-01-16T14:42:30+05:30</lastmod>
+        <lastmod>2021-01-16T15:30:00+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -51,9 +51,9 @@
   
     
     <url>
-      <loc>http://masterofnoon.com/categories/design/</loc>
+      <loc>http://masterofnoon.com/categories/ai/</loc>
       
-        <lastmod>2021-01-16T14:42:30+05:30</lastmod>
+        <lastmod>2021-01-16T15:30:00+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -70,7 +70,7 @@
     <url>
       <loc>http://masterofnoon.com/</loc>
       
-        <lastmod>2021-01-16T14:42:30+05:30</lastmod>
+        <lastmod>2021-01-16T15:30:00+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -85,28 +85,9 @@
   
     
     <url>
-      <loc>http://masterofnoon.com/categories/productivity/</loc>
+      <loc>http://masterofnoon.com/categories/other-stuff/</loc>
       
-        <lastmod>2021-01-16T14:42:30+05:30</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-  
-    
-  
-    
-    <url>
-      <loc>http://masterofnoon.com/categories/tools/</loc>
-      
-        <lastmod>2021-01-16T14:42:30+05:30</lastmod>
+        <lastmod>2021-01-16T15:30:00+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -115,6 +96,10 @@
         <priority>0.5</priority>
       
     </url>
+    
+  
+    
+  
     
   
     
