@@ -8,7 +8,7 @@ categories: [ai]
 
 Just a sample post to show some of the *typography* elements supported from
 **daktilo** theme.
-
+![Hello World](/assets/2021-01-15-stats/profile.png)
 ___
 
 A blockquote:
