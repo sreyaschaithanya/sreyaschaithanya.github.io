@@ -80,19 +80,21 @@ ___</p>
   <p>We are Hitchhikers in the road of open source knowledge.</p>
 </blockquote>
 
-<h2 id="header-2">Header 2</h2>
+<h2 id="the-rigged-coin">The rigged coin</h2>
 
-<p>Duis lacinia commodo dui, vel aliquam metus hendrerit eu. Integer et scelerisque dui. Sed nec molestie quam. Donec sit amet nisl a massa commodo ultrices nec quis nunc. Aenean aliquet eu arcu adipiscing dignissim. Nunc dictum elit vitae dolor molestie aliquet.</p>
+<p>So Bob invites Alice to a game of coin toss. He says that we use a coin of his choise to play the game as he does not trust Alice. But trust cuts both ways. So to make sure the coin is fair, Alice designs an experiment:</p>
+<ul>
+  <li>Toss the coin n times</li>
+  <li>Record the number of heads and tails</li>
+  <li>See if the number conforms to an ideal coin</li>
+</ul>
 
-<p>Example code:</p>
+<p>So if we fix n as 1000, we toss the coin 1000 times and record the number of heads and tails in an array.</p>
 
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">light</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Light</span><span class="p">();</span>
-<span class="kd">var</span> <span class="nx">switchUp</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">FlipUpCommand</span><span class="p">(</span><span class="nx">light</span><span class="p">);</span>
-<span class="kd">var</span> <span class="nx">switchDown</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">FlipDownCommand</span><span class="p">(</span><span class="nx">light</span><span class="p">);</span>
-<span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Switch</span><span class="p">();</span>
-
-<span class="nx">s</span><span class="p">.</span><span class="nx">storeAndExecute</span><span class="p">(</span><span class="nx">switchUp</span><span class="p">);</span>
-<span class="nx">s</span><span class="p">.</span><span class="nx">storeAndExecute</span><span class="p">(</span><span class="nx">switchDown</span><span class="p">);</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">n</span> <span class="o">=</span> <span class="mi">1000</span>
+<span class="n">tosses</span> <span class="o">=</span> <span class="p">[</span><span class="n">random</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">n</span><span class="p">]</span>
+<span class="n">heads_n</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">tosses</span><span class="p">)</span>
+<span class="n">tails_n</span> <span class="o">=</span> <span class="n">n</span> <span class="o">-</span> <span class="n">heads_n</span></code></pre></figure>
 
 <p>A list:</p>
 

@@ -15,21 +15,20 @@ A blockquote:
 
 > We are Hitchhikers in the road of open source knowledge.
 
-## Header 2
+## The rigged coin
 
-Duis lacinia commodo dui, vel aliquam metus hendrerit eu. Integer et scelerisque dui. Sed nec molestie quam. Donec sit amet nisl a massa commodo ultrices nec quis nunc. Aenean aliquet eu arcu adipiscing dignissim. Nunc dictum elit vitae dolor molestie aliquet.
+So Bob invites Alice to a game of coin toss. He says that we use a coin of his choise to play the game as he does not trust Alice. But trust cuts both ways. So to make sure the coin is fair, Alice designs an experiment:
+-   Toss the coin n times
+-   Record the number of heads and tails
+-   See if the number conforms to an ideal coin
 
+So if we fix n as 1000, we toss the coin 1000 times and record the number of heads and tails in an array.
 
-Example code:
-
-{% highlight javascript %}
-var light = new Light();
-var switchUp = new FlipUpCommand(light);
-var switchDown = new FlipDownCommand(light);
-var s = new Switch();
-
-s.storeAndExecute(switchUp);
-s.storeAndExecute(switchDown);
+{% highlight python %}
+n = 1000
+tosses = [random(1,0) for i in n]
+heads_n = sum(tosses)
+tails_n = n - heads_n
 {% endhighlight %}
 
 
