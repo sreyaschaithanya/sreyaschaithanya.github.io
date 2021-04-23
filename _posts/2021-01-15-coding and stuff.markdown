@@ -1,19 +1,16 @@
 ---
 layout: post
-title:  "coding and stuff"
-subtitle: "rant"
-date:   2021-01-15 23:56:45
+title:  "i hope we are smarter"
+subtitle: "take on 'universe 25'"
+date:   2021-04-23 20:40:00
 categories: [other stuff]
 ---
 
-Just a sample post to show some of the *typography* elements supported from
-**daktilo** theme.
-![Hello World](/assets/2021-01-15-stats/profile.png)
-___
 
 A blockquote:
 
-> We are Hitchhikers in the road of open source knowledge.
+> “Utopia was here at last: its novelty had not yet been assailed by the supreme enemy of all Utopias—boredom.”
+> - Arthur C. Clarke, Childhood's End
 
 ## The rigged coin
 
