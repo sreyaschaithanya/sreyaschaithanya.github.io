@@ -2,7 +2,7 @@
 layout: post
 title:  "ml scratch - logs"
 subtitle: "long due boyzzz"
-date:   2021-01-15 23:56:45
+date:   2021-06-22 12:56:45
 categories: [ai]
 ---
 
