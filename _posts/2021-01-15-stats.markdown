@@ -4,6 +4,7 @@ title:  "stats"
 subtitle: "an introduction"
 date:   2021-01-15 23:56:45
 categories: [ai]
+visible: 1
 ---
 
 Just a sample post to show some of the *typography* elements supported from
