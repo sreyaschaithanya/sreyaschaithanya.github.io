@@ -29,5 +29,15 @@ Hmmm, it seems doable. So, on with the code.
 2021-06-22 2:31:00
 
 Linear regression seems to be the most natural one to start with. So we have some features with which we try to predict an output. The features are independent variables, and the output is the dependent variable (as we suppose it's dependent on the features).  Linear regression assumes that the dependent variable has a linear relationship with the independent variables. How does the realtionsship look like:
-!equation(http://www.sciweavers.org/tex2img.php?eq=y%20%3D%20%20m_%7B1%7D%20%20x_%7B1%7D%20%2B%20%20m_%7B2%7D%20%20x_%7B2%7D%20%2B%20...%20%2B%20m_%7Bn%7D%20%20x_%7Bn%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
+![](http://www.sciweavers.org/tex2img.php?eq=y%20%3D%20%20m_%7B1%7D%20%20x_%7B1%7D%20%2B%20%20m_%7B2%7D%20%20x_%7B2%7D%20%2B%20...%20%2B%20m_%7Bn%7D%20%20x_%7Bn%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+
+Next we try to optimise with gradient descent to find the best value of the weights and the intercept. We start with random values and run through the gradient descent algorithm till we reach the optimal values. Ideally we stop after we fine a small enough error. We'll do that here.
+
+What will we use to evaluate this? Mean squared error. We take all the actual y and the predicted y and find the square of the difference between them and take the average over all the datapoints(we will take some data points for each batch). Our goal is to minimize this. 
+
+Algorithm:
+-   Random initialization of the weights (w0,w1,w2....wn; here w0 is the intercept)
+-   Partial differentialte the linear equation wrt. each of the variables. So for n variables we will get n+1 equations(w0 also included).
+-    This would give the change of the error term with respect to the weights.
+-   For w1...wn it will be x1
